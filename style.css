@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(-45deg, #273043, #000, #808080);
+    background: linear-gradient(-45deg, #2A5AAD, #5591FA, #4B8DFF);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -30,7 +30,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #9197AE;
+    background-color: #14223B;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -45,7 +45,7 @@ body {
     text-transform: capitalize;
 }
 .title-primary {
-    color: #273043;
+    color: #fff;
     padding-bottom: 1em;
 }
 .title-second {
@@ -141,7 +141,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 50%;
 }
 .form input {
     height: 45px;
@@ -149,9 +149,11 @@ body {
     border: none;
     background-color: #ecf0f1;
     outline: 0;
+    border-radius: 20px;
 }
 .label-input {
     background-color: #ecf0f1;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     margin: 8px;
@@ -159,6 +161,7 @@ body {
 .icon-modify {
     color: #7f8c8d;
     padding: 0 5px;
+    border-radius: 200px;
 }
 
 .second-content {
